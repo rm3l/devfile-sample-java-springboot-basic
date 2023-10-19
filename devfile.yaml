@@ -18,6 +18,10 @@ parent:
   id: java-springboot
   registryUrl: 'https://registry.devfile.io'
   version: 1.2.0
+  components:
+    - name: tools
+      container:
+        image: registry.access.redhat.com/ubi9/openjdk-17:1.16-1.1696518670
 components:
   - name: image-build
     image:
